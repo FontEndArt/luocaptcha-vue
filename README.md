@@ -10,7 +10,7 @@
 ### 说明
 Login.vue中有效代码如下  其他请自行替换为自己的逻辑代码
 
-```
+```vue
 <template>
   <div>
     <validate @success="SetToken"></validate>
