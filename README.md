@@ -1,13 +1,13 @@
 # [*Luosimao*](https://luosimao.com/service/captcha "Luosimao") 人机验证 在VUE中的应用
 
-- ###演示
+### - 演示
 1. 请自行clone到本地vue项目中
 
 2. 添加指向到Login.vue的路由
 
 3. 打开你的vue项目对应的路由查看演示
 
-- ###说明
+### - 说明
 Login.vue中有效代码如下  其他请自行替换为自己的逻辑代码
 
 
