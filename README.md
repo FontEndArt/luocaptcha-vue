@@ -11,35 +11,34 @@
 Login.vue中有效代码如下  其他请自行替换为自己的逻辑代码
 
 ```
-    <template>
-      <div>
-        <validate @success="SetToken"></validate>
-        <button type="submit" @click="SubmitLogin">登录</button>
-      <div>
-    </template>
-    
-    <script>
-    import Validate from "./Nc.vue";
-    
-    export default {
-      data() {
-        return {
-          form: {
-            token: ""
-          }
-        };
-      },
-      components: {
-        Validate
-      },
-      methods: {
-        SetToken(resp) {
-          this.form.token = resp;
-        }
+<template>
+  <div>
+    <validate @success="SetToken"></validate>
+    <button type="submit" @click="SubmitLogin">登录</button>
+  <div>
+</template>
+
+<script>
+import Validate from "./Nc.vue";
+
+export default {
+  data() {
+    return {
+      form: {
+        token: ""
       }
     };
-    </script>
-    
+  },
+  components: {
+    Validate
+  },
+  methods: {
+    SetToken(resp) {
+      this.form.token = resp;
+    }
+  }
+};
+</script>
 ```
 
 ------------
